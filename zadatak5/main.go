@@ -48,3 +48,15 @@ func sort(data []int) []int {
 
 	return data
 }
+
+/* 
+	:= je skraceni oblik za deklaraciju i inicijalizaciju promenljivih, može da se koristi samo lokalno, ne mora da se stavi tip promenljive
+
+	primer: a := 100
+
+	var služi za deklaraciju i inicijalizaciju promenljivih u i izvan funkcija, tako da može da se koristi i u paketu, kao globalna, ali i lokalno, 
+	ne mora da se odmah inicijalizije, mora da se stavi tip promenljive
+
+	primer: var a int
+			var b int = 20
+*/

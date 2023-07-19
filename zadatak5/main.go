@@ -11,7 +11,7 @@ func main() {
 	flag.Parse()
 	input := flag.Arg(0)
 
-	str := strings.Split(input, " ")
+	str := strings.Split(input, ", ")
 	arr := make([]int, len(str))
 	for i := range arr {
 		arr[i], _ = strconv.Atoi(str[i])
